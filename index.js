@@ -6,7 +6,7 @@ const newAdvice = async () => {
   const data = await response.json();
 
   title.innerText = `ADVICE #${data.slip.id}`;
-  paragraph.innerText = `"${data.slip.advice}"`;
+  paragraph.innerText = `“${data.slip.advice}”`;
   console.log(data.slip.advice);
 };
 
