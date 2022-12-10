@@ -54,9 +54,30 @@ html {
   cursor: pointer;
 }
 
+.new-advice:hover {
+  background: hsl(150, 94%, 68%);
+  box-shadow: 0 0 30px hsl(150, 100%, 66%);
+}
+
 .attribution {
   font-size: 8px;
   color: hsl(193, 38%, 86%);
   text-align: center;
   margin-top: 5rem;
+}
+
+.bg {
+  display: none;
+}
+
+@media screen and (min-width: 700px) {
+  .bg {
+    display: block;
+  }
+  .sm {
+    display: none;
+  }
+  .cardMain {
+    width: 500px;
+  }
 }
