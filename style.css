@@ -1,0 +1,47 @@
+html {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background: hsl(218, 23%, 16%);
+}
+
+.cardMain {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 2rem;
+  margin: auto;
+  width: 95%;
+  border-radius: 10px;
+  background: hsl(217, 19%, 24%);
+}
+
+.divider {
+  max-width: 100%;
+  margin-bottom: 2rem;
+}
+
+.title {
+  color: hsl(150, 100%, 66%);
+}
+
+.paragraph {
+  color: hsl(193, 38%, 86%);
+  text-align: center;
+}
+
+
+.new-advice {
+  margin-bottom: -55px;
+  display: grid;
+  place-items: center;
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: hsl(150, 100%, 66%);
+  cursor: pointer;
+}
