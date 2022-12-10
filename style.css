@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope&family=Neonderthaw&display=swap');
 
-
 html {
   margin: 0;
   display: flex;
@@ -41,7 +40,6 @@ html {
   font-size: 28px;
 }
 
-
 .new-advice {
   margin-bottom: -55px;
   display: grid;
@@ -60,7 +58,7 @@ html {
 }
 
 .attribution {
-  font-size: 8px;
+  font-size: 10px;
   color: hsl(193, 38%, 86%);
   text-align: center;
   margin-top: 5rem;
